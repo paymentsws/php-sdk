@@ -1,0 +1,29 @@
+{
+  "name": "paymentsws/php-sdk/examples",
+  "description": "Examples PaymentsWs API client for PHP",
+  "keywords": [
+    "paymentsws",
+    "examples"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "PaymentsWs Team",
+      "homepage": "https://www.PaymentsWs.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "PaymentsWs\\": [
+        "../src"
+      ]
+    }
+  },
+  "require": {
+    "guzzlehttp/guzzle": "~6.3",
+    "php": ">= 5.4"
+  },
+  "require-dev": {
+    "squizlabs/php_codesniffer": "~2.0"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "paymentsws/php-sdk",
+  "description": "PaymentsWs PHP-SDK client",
+  "keywords": [
+    "paymentsws"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "PaymentsWs Team",
+      "homepage": "https://www.paymentsws.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "PaymentsWs\\": [
+        "src"
+      ]
+    }
+  },
+  "require": {
+    "guzzlehttp/guzzle": "~6.3",
+    "php": ">= 5.4"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "7.1.*",
+    "squizlabs/php_codesniffer": "~2.0"
+  },
+  "version": "1.0.1"
+}
