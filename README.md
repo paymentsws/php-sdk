@@ -73,7 +73,7 @@ print_r($tokenResult);
 // ----------------------------------------------
 // stdClass Object
 // (
-//    [status] => 201
+//    [statusCode] => 201
 //    [message] => success
 //    [operationId] => aad8d262-2537-4c8d-a687-95d2928ad67f
 //    [items] => stdClass Object
@@ -104,7 +104,7 @@ print_r($result);
 // ----------------------------------------------
 // stdClass Object
 // (
-//     [status] => 200
+//     [statusCode] => 200
 //     [message] => success
 //     [operationId] => 9b466ce8-1c16-4e13-8871-0a07a2be78ba
 //     [items] => stdClass Object
@@ -139,7 +139,7 @@ print_r($result);
 // ----------------------------------------------
 // stdClass Object
 // (
-//     [status] => 200
+//     [statusCode] => 200
 //     [message] => success
 //     [operationId] => 55889f50-eff8-4536-888a-6beaeec4c36c
 //     [items] => stdClass Object
@@ -169,7 +169,7 @@ print_r($result);
 // ----------------------------------------------
 // stdClass Object
 // (
-//     [status] => 200
+//     [statusCode] => 200
 //     [message] => success
 //     [operationId] => e9235437-4517-4140-a419-5ba83f7b71ad
 //     [items] => stdClass Object
