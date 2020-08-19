@@ -7,8 +7,8 @@ use GuzzleHttp\Psr7\Response;
 use Matrix\Exception;
 use Psr\Http\Message\ResponseInterface;
 
-define('DEFAULT_PAYMENTSWS_API_HOST_PRODUCTION', '7isxs6x4ra.execute-api.us-east-1.amazonaws.com/');
-define('DEFAULT_PAYMENTSWS_API_HOST_STAGING', '7isxs6x4ra.execute-api.us-east-1.amazonaws.com/dev');
+define('DEFAULT_PAYMENTSWS_API_HOST_PRODUCTION', 'sapi.paymentsws.com');
+define('DEFAULT_PAYMENTSWS_API_HOST_STAGING', 'sapi-stg.paymentsws.com');
 define('DEFAULT_PAYMENTSWS_API_VERSION', 'v1');
 define('DEFAULT_PAYMENTSWS_API_IS_HTTPS', true);
 define('DEFAULT_PAYMENTSWS_MODE', PaymentsWsClientModes::SANDBOX);
